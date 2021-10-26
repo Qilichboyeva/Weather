@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body > h1 {
+  margin: 40px 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.city_wrap {
+  background-color: aqua;
+  padding: 20px 30px;
+}
